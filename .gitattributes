@@ -1,0 +1,4 @@
+# Radiance HDR and camera captures are binary image data.
+*.hdr binary
+*.nef binary
+*.NEF binary

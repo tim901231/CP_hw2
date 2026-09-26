@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "camera": "Nikon D3500",
+  "bayer_pattern": "RG/GB",
+  "units": {
+    "gain": "native RAW DN/electron",
+    "additive_variance": "native RAW DN^2",
+    "black_mean": "native RAW DN"
+  },
+  "method": "Gain from ramp mean-variance slope; additive variance directly from temporal black variance, NOT ramp-fit intercept.",
+  "crop_y1_x1_y2_x2": [
+    829,
+    1419,
+    2792,
+    4502
+  ],
+  "sample_stride": 4,
+  "fit_scaling": 16.61216730038023,
+  "max_fit_mean_scaled_DN": 5000,
+  "saturation_raw_DN": 4000,
+  "limitations": [
+    "Scalar per-channel dark offset, not a pixelwise dark map.",
+    "Short-exposure dark calibration; long-exposure dark-current changes not modeled.",
+    "4000 DN saturation cutoff is a conservative assumption, not calibrated per ISO."
+  ],
+  "isos": {
+    "200": {
+      "ramp_directory": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/calibration_iso_200_20260925_220351/raw_tiff",
+      "dark_directory": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/black_iso_200_20260925_165853/raw_tiff",
+      "ramp_frames": 50,
+      "dark_frames": 50,
+      "channels": {
+        "r": {
+          "gain_DN_per_electron": 0.2908980438314933,
+          "additive_variance_DN2": 0.9199122132151477,
+          "black_mean_DN": 150.09405680986686,
+          "fit": {
+            "gain_scaled_DN_per_electron": 4.832446971482108,
+            "fitted_intercept_raw_DN2_NOT_USED": 0.40201513743843503,
+            "bins": 4825,
+            "R_squared": 0.9885036107609164
+          }
+        },
+        "g1": {
+          "gain_DN_per_electron": 0.24898346990072487,
+          "additive_variance_DN2": 0.5584642682070666,
+          "black_mean_DN": 149.88330144943615,
+          "fit": {
+            "gain_scaled_DN_per_electron": 4.1361550570200265,
+            "fitted_intercept_raw_DN2_NOT_USED": 0.29997050347373544,
+            "bins": 4610,
+            "R_squared": 0.9809631171308975
+          }
+        },
+        "g2": {
+          "gain_DN_per_electron": 0.2526042106089024,
+          "additive_variance_DN2": 0.5573359147521548,
+          "black_mean_DN": 149.8802769963097,
+          "fit": {
+            "gain_scaled_DN_per_electron": 4.196303407415569,
+            "fitted_intercept_raw_DN2_NOT_USED": -0.07355552932566224,
+            "bins": 4606,
+            "R_squared": 0.9813765496868745
+          }
+        },
+        "b": {
+          "gain_DN_per_electron": 0.2939027172607402,
+          "additive_variance_DN2": 0.9124930859281358,
+          "black_mean_DN": 150.19156178264532,
+          "fit": {
+            "gain_scaled_DN_per_electron": 4.882361109171764,
+            "fitted_intercept_raw_DN2_NOT_USED": 0.38416783860102094,
+            "bins": 4699,
+            "R_squared": 0.9863866869376405
+          }
+        }
+      }
+    },
+    "400": {
+      "ramp_directory": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/calibration_iso_400_20260925_222517/raw_tiff",
+      "dark_directory": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/black_iso_400_20260925_160633/raw_tiff",
+      "ramp_frames": 50,
+      "dark_frames": 50,
+      "channels": {
+        "r": {
+          "gain_DN_per_electron": 0.5817191869890224,
+          "additive_variance_DN2": 2.0521988072016444,
+          "black_mean_DN": 149.8980482405742,
+          "fit": {
+            "gain_scaled_DN_per_electron": 9.663616456102808,
+            "fitted_intercept_raw_DN2_NOT_USED": 1.8347955130717706,
+            "bins": 4826,
+            "R_squared": 0.9884309965317636
+          }
+        },
+        "g1": {
+          "gain_DN_per_electron": 0.4976541455762533,
+          "additive_variance_DN2": 1.4705618391967572,
+          "black_mean_DN": 150.1186475627442,
+          "fit": {
+            "gain_scaled_DN_per_electron": 8.267113924040498,
+            "fitted_intercept_raw_DN2_NOT_USED": 1.4160850455844518,
+            "bins": 4617,
+            "R_squared": 0.9836481355849525
+          }
+        },
+        "g2": {
+          "gain_DN_per_electron": 0.5015953991709922,
+          "additive_variance_DN2": 1.4656970065320951,
+          "black_mean_DN": 150.1062948903876,
+          "fit": {
+            "gain_scaled_DN_per_electron": 8.332586688129524,
+            "fitted_intercept_raw_DN2_NOT_USED": 0.9567876795582002,
+            "bins": 4617,
+            "R_squared": 0.9835624906352441
+          }
+        },
+        "b": {
+          "gain_DN_per_electron": 0.5871900127597736,
+          "additive_variance_DN2": 2.0429024982844544,
+          "black_mean_DN": 150.0755192954372,
+          "fit": {
+            "gain_scaled_DN_per_electron": 9.75449872907776,
+            "fitted_intercept_raw_DN2_NOT_USED": 1.7092178375779226,
+            "bins": 4698,
+            "R_squared": 0.9864999749227346
+          }
+        }
+      }
+    },
+    "800": {
+      "ramp_directory": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/calibration_iso_800_20260925_223045/raw_tiff",
+      "dark_directory": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/black_iso_800_20260925_161032/raw_tiff",
+      "ramp_frames": 50,
+      "dark_frames": 50,
+      "channels": {
+        "r": {
+          "gain_DN_per_electron": 1.1682236906946346,
+          "additive_variance_DN2": 6.344653947070994,
+          "black_mean_DN": 149.97796233632093,
+          "fit": {
+            "gain_scaled_DN_per_electron": 19.406727394086914,
+            "fitted_intercept_raw_DN2_NOT_USED": 6.191569926327563,
+            "bins": 4832,
+            "R_squared": 0.9886122294052363
+          }
+        },
+        "g1": {
+          "gain_DN_per_electron": 0.998918925473944,
+          "additive_variance_DN2": 4.549986176977706,
+          "black_mean_DN": 149.8605272598075,
+          "fit": {
+            "gain_scaled_DN_per_electron": 16.594208309489208,
+            "fitted_intercept_raw_DN2_NOT_USED": 4.201001980146623,
+            "bins": 4612,
+            "R_squared": 0.9837003552156364
+          }
+        },
+        "g2": {
+          "gain_DN_per_electron": 1.0005232330055334,
+          "additive_variance_DN2": 4.5391155562290715,
+          "black_mean_DN": 149.83027855484323,
+          "fit": {
+            "gain_scaled_DN_per_electron": 16.62085933460523,
+            "fitted_intercept_raw_DN2_NOT_USED": 3.8933248526562005,
+            "bins": 4609,
+            "R_squared": 0.9842234803214358
+          }
+        },
+        "b": {
+          "gain_DN_per_electron": 1.173624254904015,
+          "additive_variance_DN2": 6.088337424281606,
+          "black_mean_DN": 150.1298645132489,
+          "fit": {
+            "gain_scaled_DN_per_electron": 19.496442470249587,
+            "fitted_intercept_raw_DN2_NOT_USED": 6.502030985825363,
+            "bins": 4704,
+            "R_squared": 0.9853928730299405
+          }
+        }
+      }
+    },
+    "1600": {
+      "ramp_directory": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/calibration_iso_1600_20260925_223725/raw_tiff",
+      "dark_directory": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/black_iso_1600_20260925_163736/raw_tiff",
+      "ramp_frames": 50,
+      "dark_frames": 50,
+      "channels": {
+        "r": {
+          "gain_DN_per_electron": 2.2917902150467993,
+          "additive_variance_DN2": 21.268071686503056,
+          "black_mean_DN": 150.20408346343126,
+          "fit": {
+            "gain_scaled_DN_per_electron": 38.07160246973181,
+            "fitted_intercept_raw_DN2_NOT_USED": 27.093217270294783,
+            "bins": 4852,
+            "R_squared": 0.988723028375934
+          }
+        },
+        "g1": {
+          "gain_DN_per_electron": 1.9622103798532458,
+          "additive_variance_DN2": 15.672489503080111,
+          "black_mean_DN": 150.21695990870688,
+          "fit": {
+            "gain_scaled_DN_per_electron": 32.59656710866476,
+            "fitted_intercept_raw_DN2_NOT_USED": 19.902390766576662,
+            "bins": 4627,
+            "R_squared": 0.9828552929208194
+          }
+        },
+        "g2": {
+          "gain_DN_per_electron": 1.964598944048823,
+          "additive_variance_DN2": 15.636896305876668,
+          "black_mean_DN": 150.1708142677138,
+          "fit": {
+            "gain_scaled_DN_per_electron": 32.63624633668938,
+            "fitted_intercept_raw_DN2_NOT_USED": 19.458560602783667,
+            "bins": 4626,
+            "R_squared": 0.982039058804325
+          }
+        },
+        "b": {
+          "gain_DN_per_electron": 2.297655660295861,
+          "additive_variance_DN2": 21.3909147049819,
+          "black_mean_DN": 150.33440851012122,
+          "fit": {
+            "gain_scaled_DN_per_electron": 38.169040227500446,
+            "fitted_intercept_raw_DN2_NOT_USED": 28.776918570199133,
+            "bins": 4720,
+            "R_squared": 0.9847092909236337
+          }
+        }
+      }
+    },
+    "3200": {
+      "ramp_directory": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/calibration_iso_3200_20260925_224409/raw_tiff",
+      "dark_directory": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/black_iso_3200_20260925_164745/raw_tiff",
+      "ramp_frames": 50,
+      "dark_frames": 50,
+      "channels": {
+        "r": {
+          "gain_DN_per_electron": 4.682903095342995,
+          "additive_variance_DN2": 80.6633843347383,
+          "black_mean_DN": 150.70376319800505,
+          "fit": {
+            "gain_scaled_DN_per_electron": 77.79316967130626,
+            "fitted_intercept_raw_DN2_NOT_USED": 93.32774377610939,
+            "bins": 4896,
+            "R_squared": 0.983250890364801
+          }
+        },
+        "g1": {
+          "gain_DN_per_electron": 3.930453383772096,
+          "additive_variance_DN2": 59.46496912448642,
+          "black_mean_DN": 150.66909443920534,
+          "fit": {
+            "gain_scaled_DN_per_electron": 65.29334917756763,
+            "fitted_intercept_raw_DN2_NOT_USED": 75.06562811942933,
+            "bins": 4659,
+            "R_squared": 0.9778255390264744
+          }
+        },
+        "g2": {
+          "gain_DN_per_electron": 3.9208059735001197,
+          "additive_variance_DN2": 59.372574598685695,
+          "black_mean_DN": 150.52788063218344,
+          "fit": {
+            "gain_scaled_DN_per_electron": 65.13308478411416,
+            "fitted_intercept_raw_DN2_NOT_USED": 74.74126523069316,
+            "bins": 4651,
+            "R_squared": 0.9767635189903311
+          }
+        },
+        "b": {
+          "gain_DN_per_electron": 4.673714346432154,
+          "additive_variance_DN2": 81.20484747046132,
+          "black_mean_DN": 150.90892231370907,
+          "fit": {
+            "gain_scaled_DN_per_electron": 77.64052463711819,
+            "fitted_intercept_raw_DN2_NOT_USED": 97.95974396614503,
+            "bins": 4763,
+            "R_squared": 0.9832365223834664
+          }
+        }
+      }
+    }
+  }
+}

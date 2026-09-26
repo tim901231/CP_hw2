@@ -1,0 +1,41 @@
+{
+  "white_balance_RGB": [
+    1.41015625,
+    1.0,
+    2.20703125
+  ],
+  "exposure_times": [
+    0.0005,
+    0.001,
+    0.002,
+    0.004,
+    0.008,
+    0.01666666667,
+    0.03333333333,
+    0.06666666667,
+    0.125,
+    0.25,
+    0.5,
+    1,
+    2,
+    4,
+    8,
+    15
+  ],
+  "gain_normalized_RGB": [
+    0.00010405913781141862,
+    6.286716961767524e-05,
+    0.00016451283590868115
+  ],
+  "additive_variance_normalized_RGB": [
+    1.1848357672761267e-07,
+    3.6345973342122306e-08,
+    2.8739353297169146e-07
+  ],
+  "mask_range": [
+    0.05,
+    0.95
+  ],
+  "units": "linear RGB / second",
+  "note": "Approximate RGB weights from RAW calibration; ignores demosaicing/color-matrix covariance. Shared WB from exposure8, not neutral-patch calibrated."
+}

@@ -1,0 +1,248 @@
+{
+  "profile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/noise_calibration/iso_noise_profile.json",
+  "gain_convention": "DN/electron",
+  "equations": {
+    "flux": "z/(gain*t)",
+    "variance": "gain*max(z,0)+black_variance",
+    "weight": "(gain*t)^2/variance"
+  },
+  "shared_white_balance": [
+    1.875,
+    1.0,
+    1.51171875
+  ],
+  "reused_fixed_frames": [
+    1,
+    2,
+    3
+  ],
+  "radiance_units": "electrons/second in RAW mosaic; ISO200-equivalent camera DN/second in RGB",
+  "limitations": [
+    "Scalar per-channel dark offset, not a pixelwise dark map.",
+    "Short-exposure dark calibration; long-exposure dark-current changes not modeled.",
+    "4000 DN saturation cutoff is a conservative assumption, not calibrated per ISO.",
+    "No image registration or motion correction.",
+    "Camera-RGB HDR uses bilinear demosaicing, no camera-to-sRGB matrix.",
+    "Equal integration time; manually timed captures are not equal elapsed capture time.",
+    "Dark-offset estimation uncertainty is neglected; shared calibration may induce correlated errors."
+  ],
+  "stacks": {
+    "fixed_iso": {
+      "frames": [
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/1.NEF",
+          "ISO": 200,
+          "ExposureTime": 0.0005,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:26:19",
+          "RedBalance": 1.875,
+          "BlueBalance": 1.51171875,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/raw_tiff/1.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/2.NEF",
+          "ISO": 200,
+          "ExposureTime": 0.002,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:27:02",
+          "RedBalance": 2.00390625,
+          "BlueBalance": 1.4296875,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/raw_tiff/2.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/3.NEF",
+          "ISO": 200,
+          "ExposureTime": 0.008,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:27:24",
+          "RedBalance": 1.41015625,
+          "BlueBalance": 2.1953125,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/raw_tiff/3.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/4.NEF",
+          "ISO": 200,
+          "ExposureTime": 0.03333333333,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:27:54",
+          "RedBalance": 1.41015625,
+          "BlueBalance": 2.203125,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/raw_tiff/4.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/5.NEF",
+          "ISO": 200,
+          "ExposureTime": 0.125,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:28:17",
+          "RedBalance": 1.41015625,
+          "BlueBalance": 2.19140625,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/raw_tiff/5.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/6.NEF",
+          "ISO": 200,
+          "ExposureTime": 0.5,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:28:35",
+          "RedBalance": 1.37890625,
+          "BlueBalance": 2.265625,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/raw_tiff/6.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/7.NEF",
+          "ISO": 200,
+          "ExposureTime": 2,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:29:54",
+          "RedBalance": 1.36328125,
+          "BlueBalance": 2.39453125,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/raw_tiff/7.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/8.NEF",
+          "ISO": 200,
+          "ExposureTime": 8,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:30:23",
+          "RedBalance": 1.359375,
+          "BlueBalance": 2.4140625,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/raw_tiff/8.tiff"
+        }
+      ],
+      "total_exposure_seconds": 10.66883333333,
+      "fallback_fraction": 0.0,
+      "fallback": "Shortest exposure, converted by its gain and time"
+    },
+    "varying_iso": {
+      "frames": [
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/1.NEF",
+          "ISO": 200,
+          "ExposureTime": 0.0005,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:26:19",
+          "RedBalance": 1.875,
+          "BlueBalance": 1.51171875,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/raw_tiff/1.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/2.NEF",
+          "ISO": 200,
+          "ExposureTime": 0.002,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:27:02",
+          "RedBalance": 2.00390625,
+          "BlueBalance": 1.4296875,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/raw_tiff/2.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/3.NEF",
+          "ISO": 200,
+          "ExposureTime": 0.008,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:27:24",
+          "RedBalance": 1.41015625,
+          "BlueBalance": 2.1953125,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_fix_iso/raw_tiff/3.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_vary_iso/4.NEF",
+          "ISO": 400,
+          "ExposureTime": 0.03333333333,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:33:39",
+          "RedBalance": 1.41015625,
+          "BlueBalance": 2.19140625,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/output/iso_aware_merge/raw_cache/room_vary_iso/4.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_vary_iso/5.NEF",
+          "ISO": 800,
+          "ExposureTime": 0.125,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:33:10",
+          "RedBalance": 1.37890625,
+          "BlueBalance": 2.25,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/output/iso_aware_merge/raw_cache/room_vary_iso/5.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_vary_iso/6.NEF",
+          "ISO": 800,
+          "ExposureTime": 0.5,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:32:53",
+          "RedBalance": 1.3359375,
+          "BlueBalance": 2.44140625,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/output/iso_aware_merge/raw_cache/room_vary_iso/6.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_vary_iso/7.NEF",
+          "ISO": 1600,
+          "ExposureTime": 2,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:32:22",
+          "RedBalance": 1.32421875,
+          "BlueBalance": 2.48046875,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/output/iso_aware_merge/raw_cache/room_vary_iso/7.tiff"
+        },
+        {
+          "SourceFile": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/data/room_vary_iso/8.NEF",
+          "ISO": 1600,
+          "ExposureTime": 8,
+          "FNumber": 4,
+          "Model": "NIKON D3500",
+          "DateTimeOriginal": "2026:09:26 01:31:23",
+          "RedBalance": 1.3125,
+          "BlueBalance": 2.46484375,
+          "tiff": "/Users/tsaiiast/Desktop/MSCV/ComputationPhotography/assgn2/output/iso_aware_merge/raw_cache/room_vary_iso/8.tiff"
+        }
+      ],
+      "total_exposure_seconds": 10.66883333333,
+      "fallback_fraction": 0.0,
+      "fallback": "Shortest exposure, converted by its gain and time"
+    }
+  },
+  "display": {
+    "method": "shared scalar from fixed-ISO linear mean, clip [0,1], sRGB gamma encode",
+    "target_linear_mean_before_clipping": 0.225,
+    "shared_linear_scale": 0.00013261981890593075,
+    "encoding": "sRGB transfer function on camera RGB",
+    "shadow_boost": 8,
+    "crop_xyxy": [
+      1500,
+      1900,
+      2012,
+      2412
+    ],
+    "statistics": {
+      "fixed_iso": {
+        "source_nonnegative_linear_mean": 1696.5790019634692,
+        "scaled_linear_mean_before_clipping": 0.225,
+        "clipped_linear_mean": 0.08389806694961052,
+        "clipped_channel_fraction": 0.03841391415720098
+      },
+      "varying_iso": {
+        "source_nonnegative_linear_mean": 1684.6567928368966,
+        "scaled_linear_mean_before_clipping": 0.2234188787846753,
+        "clipped_linear_mean": 0.08380953318041685,
+        "clipped_channel_fraction": 0.03735491599647509
+      }
+    }
+  }
+}
